@@ -18,6 +18,7 @@ Please ensure you are using Python 3.5.2 by using either of the below commands:
 > python -V
 > python --version
 ```
+If you are not, please download the appropriate version.
 
 ### OR
 ### 1.2 Install Python 3.6.1 and pip (Windows)
@@ -31,17 +32,18 @@ Download the REQUIREMENTS.txt file and open it in an editor. Please remove the D
 ```
 > pip install -r REQUIREMENTS.txt
 ```
+
 It is also advised that you use a virtual environment to contain all of your python code and imports. To do this, perform the following:
 ```
 > pip install virtualenv
 > virtualenv [NAME OF ENVIRONMENT]              // fill in any name for your environment within the square brackets
 ```
+
 Perform the following based on your Operating System:
 ```
 > source [NAME OF ENVIRONMENT]/bin/activate     // used for Linux users
 > .\[NAME OF ENVIRONMENT]\Scripts\activate      // used for Windows users
 ```
-
 
 ### 3 Run the program
 Download the files above and unzip them to your working directory. Then type into your terminal:
