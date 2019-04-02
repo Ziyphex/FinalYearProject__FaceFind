@@ -7,12 +7,18 @@ Finally, for further insight into the students engagement level, a trained Keras
 All data collected from this system is anonymous by default; at no point is the identity of the subject revealed, unless a requirement of the research is to do so, upon which the system will show the live feed.
 
 ## How to install
-### 1.1  Install Python 3.6.1 and pip (Ubuntu)
-Open a terminal and type:
+### 1.1  Install Python 3.5.2 and pip (Ubuntu)
+Python comes installed alongside your Ubuntu installation. So you can open a terminal and type:
 ```
 > sudo apt-get update
 > sudo apt-get install python3-pip
 ```
+Please ensure you are using Python 3.5.2 by using either of the below commands:
+```
+> python -V
+> python --version
+```
+
 ### OR
 ### 1.2 Install Python 3.6.1 and pip (Windows)
 1. Open a browser window and navigate to the [Download](https://www.python.org/downloads/windows/) page for Windows at python.org.
