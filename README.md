@@ -11,7 +11,7 @@ All data collected from this system is anonymous by default; at no point is the 
 Open a terminal and type:
 ```
 > sudo apt-get update
-> sudo apt-get install python3.6.1
+> sudo apt-get install python3-pip
 ```
 ### OR
 ### 1.2 Install Python 3.6.1 and pip (Windows)
@@ -21,10 +21,11 @@ Open a terminal and type:
    > Install Now
 
 ### 2 Install all required libraries
+Download the REQUIREMENTS.txt file and open it in an editor. Please remove the Dlib version that does not match your operating system from the list of libraries within this txt file and then run the following:
 ```
-> pip install opencv-python
+> pip install -r REQUIREMENTS.txt
 ```
-You can find the list of libraries in REQUIREMENTS.txt above. It is advised that you use a virtual environment to contain all of your python code and imports. To do this, perform the following:
+It is also advised that you use a virtual environment to contain all of your python code and imports. To do this, perform the following:
 ```
 > pip install virtualenv
 > virtualenv [NAME OF ENVIRONMENT]              // fill in any name for your environment within the square brackets
