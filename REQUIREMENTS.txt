@@ -1,0 +1,12 @@
+opencv-python==4.0.0.21
+cmake==3.13.3
+dlib==19.16.0		// for Linux
+dlib==19.6.1 		// for Windows
+tensorflow==1.13.1
+keras==2.2.4
+mss==4.0.2
+-xlib==1.12.0
+-pandas==0.24.0
+imutils==0.5.2
+matplotlib==3.0.3
+pyqt5==5.11.3
